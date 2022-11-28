@@ -1,8 +1,11 @@
-import style from  './styl.module.less'
+import 'antd/dist/reset.css';
+import {Button} from 'antd'
+import './style.less'
 function App() {
   return (
-    <div className={style.content}>
+    <div className='content'>
       app
+        <Button>按钮</Button>
     </div>
   );
 }
